@@ -31,6 +31,30 @@ function show (data) {
         <h2>Comments</h2>
         {comments}
         <p>No comments yet!</p>
+
+        <h2>Comment/Rant </h2>
+            <form method="POST" action={`/places/${data.place.id}/comment`}>
+                <div className="row">
+                    <div className="form-group col=sm-6">
+                        <label htmlFor="author">Author</label>
+                        <input className="form-control" id="author" name="author" />
+                    </div>
+                    <div className="form-group col=sm-6">
+                        <label htmlFor="rant">Rant</label>
+                        <input className="form-control" id="rant" name="rant" type = "checkBox"/>
+                    </div>
+                    <div className="form-group col=sm-6">
+                        <label htmlFor="stars">Stars</label>
+                        <input className="form-control" id="stars" name="stars" type= "number" step= "0.5" min="0" max="5" required/>
+                    </div>
+                    <div className="form-group col=sm-6">
+                        <label htmlFor="content">Content</label>
+                        <textarea className="form-control" id="content" name="content" />
+                    </div>
+                    <input className="btn btn-primary" type="submit" value="Add Comment" />
+                </div>
+            </form>
+
         <h3>
           Located in {data.place.city}, {data.place.state}
         </h3>
