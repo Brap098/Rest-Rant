@@ -5,15 +5,19 @@ function home () {
     return (
         <Def>
         <main>
-    <h1>Res Rant</h1>
+    <h1>Todos</h1>
     <div>
-      <img src="/images/chia-fruit-drink.jpg" alt="Chia Fruit Shake" />
+      <img src="public\images\thomas-bormans-pcpsVsyFp_s-unsplash.jpg" alt="Todo list" />
       <div>
-        Photo by <a href="AUTHOR_LINK">Brenda Godinez</a> on <a href="UNSPLASH_LINK">Unsplash</a>
+      Photo by <a href="https://unsplash.com/@thomasbormans?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thomas Bormans</a> on <a href="https://unsplash.com/s/photos/list?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+      </div>
+      <div>
+        Welcom to a new list site for all lists, reminders, and ETC.
       </div>
     </div>
-    <a href="/places">
-        <button className="btn-primary">Places Page</button>
+    <a href="/todos">
+        <button className="btn-primary">Todo Page</button>
     </a>
 </main>
 

@@ -14,10 +14,10 @@ function Def (html) {
                             <a href="/">Home</a>
                         </li>
                         <li>
-                        <a href="/places">Places</a>
+                        <a href="/Todos">Todos</a>
                         </li>
                         <li>
-                        <a href="/places/new">Add Places</a>
+                        <a href="/Todos/new">Add Todo</a>
                         </li>
                     </ul>
                 </nav>
